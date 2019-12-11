@@ -11,6 +11,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.demo.espresso.R
 import com.demo.espresso.data.Product
 import com.demo.espresso.data.source.ProductDataSource
+import com.demo.espresso.util.SharedPreferenceUtil
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_product_detail.*
 
@@ -59,12 +60,13 @@ class ProductDetailFragment constructor(
         var mainActivity = activity as MainActivity
         buttonAddCart.setOnClickListener(View.OnClickListener {
             var arrayList: ArrayList<Product> =
-                mainActivity.getArrayList(mainActivity.cartProductsKey)
+                SharedPreferenceUtil.getArrayList(
+                    mainActivity.applicationContext
+                )
             product.quantity = Integer.parseInt(spinnerQuantity.selectedItem.toString())
-            arrayList.add(product)
-            mainActivity.saveArrayList(arrayList,mainActivity.cartProductsKey)
+            SharedPreferenceUtil.productSaveAndExists(product, mainActivity.applicationContext)
             mainActivity.cartCount()
-            Toast.makeText(activity,"Product successfully add to cart",Toast.LENGTH_LONG).show()
+            Toast.makeText(activity, "Product successfully add to cart", Toast.LENGTH_LONG).show()
             mainActivity.supportFragmentManager.popBackStack()
         })
 

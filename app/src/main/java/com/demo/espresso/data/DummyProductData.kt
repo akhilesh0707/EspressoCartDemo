@@ -2,7 +2,7 @@ package com.demo.espresso.data
 
 object DummyProductData {
 
-    const val FAKE_NETWORK_DELAY = 2000L
+    const val FAKE_NETWORK_DELAY = 500L
 
     val products = arrayOf(
         Product(
