@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">EspressoTest</string>
+    <string name="app_name">Shopping Cart</string>
+    <string name="product_added">Product successfully add to cart</string>
     <string-array name="quantity">
         <item>1</item>
         <item>2</item>

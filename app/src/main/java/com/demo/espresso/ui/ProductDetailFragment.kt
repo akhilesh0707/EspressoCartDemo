@@ -66,7 +66,7 @@ class ProductDetailFragment constructor(
             product.quantity = Integer.parseInt(spinnerQuantity.selectedItem.toString())
             SharedPreferenceUtil.productSaveAndExists(product, mainActivity.applicationContext)
             mainActivity.cartCount()
-            Toast.makeText(activity, "Product successfully add to cart", Toast.LENGTH_LONG).show()
+            Toast.makeText(activity, getString(R.string.product_added), Toast.LENGTH_LONG).show()
             mainActivity.supportFragmentManager.popBackStack()
         })
 
