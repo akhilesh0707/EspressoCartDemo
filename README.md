@@ -5,7 +5,7 @@ Kotlin espresso shopping cart demo
 [![Akhilesh LinkedIn](https://img.shields.io/badge/Akhilesh-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/akhilesh0707/)
 
 
-<img src="https://user-images.githubusercontent.com/7746624/72607684-24bc4180-3947-11ea-9fe9-3f17eac8397a.png" width="250"><img src="https://user-images.githubusercontent.com/7746624/72608643-2ab32200-3949-11ea-8bcd-b36ecaf153bb.png" width="250"><img src="https://user-images.githubusercontent.com/7746624/72608688-45859680-3949-11ea-8cf8-40de59434945.png" width="250"><img src="https://user-images.githubusercontent.com/7746624/72608756-6f3ebd80-3949-11ea-9a1a-34f9ff292e74.png" width="250">
+<img src="https://user-images.githubusercontent.com/7746624/72607684-24bc4180-3947-11ea-9fe9-3f17eac8397a.png" width="230"><img src="https://user-images.githubusercontent.com/7746624/72608643-2ab32200-3949-11ea-8bcd-b36ecaf153bb.png" width="230"><img src="https://user-images.githubusercontent.com/7746624/72608688-45859680-3949-11ea-8cf8-40de59434945.png" width="230"><img src="https://user-images.githubusercontent.com/7746624/72608756-6f3ebd80-3949-11ea-9a1a-34f9ff292e74.png" width="230">
 
 ## Description
 The shopping cart is app display the product in list, add product to cart and buy product using espresso automation testing 
